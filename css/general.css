@@ -34,7 +34,10 @@
  - Accents:
  - Greys: 
      #aaa
+     #ddd
+     #767676(lightest grey allowed on #fff) 
      #6F6F6F(lightest grey allowed on #fdf2e9) 
+     #888
      #555 
      #333 
 
@@ -107,6 +110,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .heading-primary,
